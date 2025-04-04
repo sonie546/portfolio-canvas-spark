@@ -1,19 +1,14 @@
-
 import React from 'react';
 import { ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const Hero = () => {
-  return (
-    <section className="min-h-screen flex items-center pt-16 pb-20 px-4">
+  return <section className="min-h-screen flex items-center pt-16 pb-20 px-4">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Text Content */}
           <div className="md:w-1/2 mb-8 md:mb-0 animate-fadeIn">
             <p className="text-blue-600 font-semibold mb-2">Hello, I'm</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              John Doe
-            </h1>
+            <h1 className="change to Doreen Muthoni">Doreen Muthoni</h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">
               Software Developer
             </h2>
@@ -36,11 +31,7 @@ const Hero = () => {
             <div className="relative">
               {/* Image Placeholder - Replace with your actual image */}
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-100 shadow-lg mx-auto">
-                <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=600"
-                  alt="Profile" 
-                  className="w-full h-full object-cover"
-                />
+                <img alt="Profile" className="w-full h-full object-cover" src="/lovable-uploads/6314bea6-76f1-4258-9d6b-b19f74663b26.jpg" />
               </div>
               
               {/* Decorative Circle */}
@@ -56,8 +47,6 @@ const Hero = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

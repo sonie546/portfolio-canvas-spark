@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-gray-50">
+  return <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="section-title">About Me</h2>
         
@@ -30,27 +27,26 @@ const About = () => {
           <div className="md:w-1/2">
             <div className="grid grid-cols-2 gap-4">
               <div className="p-4 bg-white rounded-lg shadow-sm">
-                <h3 className="font-bold text-lg mb-2">5+</h3>
+                <h3 className="font-bold text-lg mb-2">3+</h3>
                 <p className="text-gray-600">Years Experience</p>
               </div>
               <div className="p-4 bg-white rounded-lg shadow-sm">
-                <h3 className="font-bold text-lg mb-2">50+</h3>
+                <h3 className="font-bold text-lg mb-2">2+</h3>
                 <p className="text-gray-600">Projects Completed</p>
               </div>
               <div className="p-4 bg-white rounded-lg shadow-sm">
-                <h3 className="font-bold text-lg mb-2">20+</h3>
+                <h3 className="font-bold text-lg mb-2">
+              </h3>
                 <p className="text-gray-600">Happy Clients</p>
               </div>
               <div className="p-4 bg-white rounded-lg shadow-sm">
-                <h3 className="font-bold text-lg mb-2">10+</h3>
+                <h3 className="font-bold text-lg mb-2">1</h3>
                 <p className="text-gray-600">Open Source Contributions</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
