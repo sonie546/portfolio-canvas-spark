@@ -1,5 +1,7 @@
+
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
+
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -7,6 +9,7 @@ const Footer = () => {
       behavior: 'smooth'
     });
   };
+
   return <footer className="bg-gray-800 text-white py-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -14,8 +17,8 @@ const Footer = () => {
             <div className="text-xl font-bold mb-2">
               <span className="text-blue-400">Dev</span>Portfolio
             </div>
-            <p className="edit to \xA9 2025 Doreen. All rights reserved">
-              &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            <p className="text-gray-300">
+              © 2025 Doreen Muthoni. All rights reserved.
             </p>
           </div>
           
@@ -32,4 +35,5 @@ const Footer = () => {
       </div>
     </footer>;
 };
+
 export default Footer;
