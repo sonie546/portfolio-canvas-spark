@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { GraduationCap, Calendar } from 'lucide-react';
 
@@ -6,7 +5,7 @@ const Education = () => {
   const education = [
     {
       id: 1,
-      degree: "Bachelor of Science in Software Engineering",
+      degree: "Bachelor of Purchasing and Supplies Management",
       institution: "State University",
       year: "2014 - 2018",
       description: "Focused on software development methodologies and web technologies. Completed multiple internships and led the university's coding club."
