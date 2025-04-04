@@ -6,20 +6,13 @@ const Education = () => {
   const education = [
     {
       id: 1,
-      degree: "Master of Computer Science",
-      institution: "University of Technology",
-      year: "2018 - 2020",
-      description: "Specialized in Artificial Intelligence and Machine Learning. Graduated with honors and completed a thesis on predictive analytics for e-commerce platforms."
-    },
-    {
-      id: 2,
       degree: "Bachelor of Science in Software Engineering",
       institution: "State University",
       year: "2014 - 2018",
       description: "Focused on software development methodologies and web technologies. Completed multiple internships and led the university's coding club."
     },
     {
-      id: 3,
+      id: 2,
       degree: "Web Development Certification",
       institution: "Tech Academy",
       year: "2013 - 2014",
